@@ -1,0 +1,67 @@
+body {
+  font-family: "Segoe UI", -apple-system, sans-serif;
+  margin: 0;
+  padding: 16px;
+  font-size: 13px;
+  color: #242424;
+}
+
+#app { max-width: 100%; }
+
+.state p { margin: 0 0 8px; }
+
+button {
+  background: #0f6cbd;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+button:hover { background: #115ea3; }
+
+.card {
+  border: 1px solid #e1e1e1;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+}
+
+.card .subject {
+  font-weight: 600;
+  margin: 0 0 2px;
+}
+
+.card .meta {
+  color: #616161;
+  font-size: 12px;
+  margin: 0;
+}
+
+.banner {
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.banner-hit {
+  background: #fff4ce;
+  color: #7a5d00;
+  border: 1px solid #ffd257;
+}
+
+.banner-clear {
+  background: #dff6dd;
+  color: #0e5c1a;
+  border: 1px solid #9fd89f;
+}
+
+.error {
+  background: #fde7e9;
+  color: #a4262c;
+  border: 1px solid #f1929b;
+  border-radius: 6px;
+  padding: 10px 12px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recent contact</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script src="https://alcdn.msauth.net/browser/2.38.3/js/msal-browser.min.js"></script>
+  <link rel="stylesheet" href="taskpane.css" />
+  <script src="config.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div id="status" class="state state-checking">
+      <p>Waiting for a recipient in the "To" field&hellip;</p>
+    </div>
+
+    <div id="signin" class="state" style="display:none;">
+      <p>Sign in to check your Sent Items.</p>
+      <button id="signin-btn">Sign in</button>
+    </div>
+
+    <div id="result" class="state" style="display:none;"></div>
+  </div>
+
+  <script src="taskpane.js"></script>
+</body>
+</html>

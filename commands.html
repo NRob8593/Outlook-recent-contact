@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script>
+    Office.onReady();
+
+    function onComposeStart(event) {
+      // Nothing to do here besides let Outlook open the task pane —
+      // SendMode SoftBlock in the manifest handles the auto-show.
+      event.completed();
+    }
+
+    // Required global for the manifest's LaunchEvent function reference.
+    window.onComposeStart = onComposeStart;
+  </script>
+</head>
+<body></body>
+</html>
