@@ -100,8 +100,8 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://nrob8593.github.io/Outlook-recent-contact/assets/icon-80.png" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://https://nrob8593.github.io/Outlook-recent-contact/taskpane.html" />
-        <bt:Url id="Commands.Url" DefaultValue="https://https://nrob8593.github.io/Outlook-recent-contact/commands.html" />
+        <bt:Url id="Taskpane.Url" DefaultValue="https://nrob8593.github.io/Outlook-recent-contact/taskpane.html" />
+        <bt:Url id="Commands.Url" DefaultValue="https://nrob8593.github.io/Outlook-recent-contact/commands.html" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Group1Label" DefaultValue="Circuit32" />
